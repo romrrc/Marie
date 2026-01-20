@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form</title>
+
+<link href="styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+    color: #FF018F;
+}
+a:hover {
+    color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post">
+  <table width="800" border="1" align="center">
+    <tbody>
+      <tr>
+        <td width="99" align="center"><a href="index.html">Inicio</a></td>
+        <td width="198" align="center"><a href="page 2.html">Logros</a></td>
+        <td width="75" align="center"><a href="page 3.html">Galería</a></td>
+        <td width="149" align="center"><a href="form.html">Contactos</a></td>
+      </tr>
+      <tr>
+        <td colspan="4" align="center"><h2>Registration form</h2></td>
+      </tr>
+      <tr>
+        <td>1.- Full name</td>
+        <td><input name="textfield" type="text" id="textfield" value="Name" size="30"></td>
+        <td colspan="2"><input name="textfield2" type="text" id="textfield2" value="Last name" size="30"></td>
+      </tr>
+      <tr>
+        <td><p>2.- Address</p></td>
+        <td colspan="3"><input name="textfield3" type="text" id="textfield3" value="Address" size="60"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td colspan="3"><input name="textfield4" type="text" id="textfield4" value="Streets" size="60"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input name="textfield5" type="text" id="textfield5" value="City" size="30"></td>
+        <td colspan="2"><input name="textfield6" type="text" id="textfield6" value="Region/Province/State" size="30"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input name="textfield7" type="text" id="textfield7" value="Postal code" size="30"></td>
+        <td colspan="2"><select name="select" id="select">
+          <option selected="selected">Country</option>
+          <option>Mexico</option>
+          <option>Colombia</option>
+          <option>España</option>
+          <option>Italia</option>
+          <option>Alemania</option>
+          <option>Francia</option>
+          <option>USA</option>
+          <option>Canada</option>
+          <option>Holanda</option>
+          <option>Portugal</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td height="29">3.- Number phone</td>
+        <td colspan="3"><input name="textfield8" type="text" id="textfield8" value="## #### ####" size="60"></td>
+      </tr>
+      <tr>
+        <td>4.- Fax</td>
+        <td colspan="3"><input name="textfield9" type="text" id="textfield9" value="## #### ####" size="60"></td>
+      </tr>
+      <tr>
+        <td>5.- Gender</td>
+        <td colspan="3"><p>
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+            Male</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+            Famale</label>
+          <br>
+        </p></td>
+      </tr>
+      <tr>
+        <td>6.- Civil relationship</td>
+        <td colspan="3"><p>
+          <label>
+            <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+            Married</label>
+          <br>
+          <label>
+            <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+            Single</label>
+          <br>
+          <label>
+            <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+            Divorced</label>
+          <br>
+          <label>
+            <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_3">
+            Widou</label>
+          <br>
+        </p></td>
+      </tr>
+      <tr>
+        <td>7.- Email</td>
+        <td colspan="3"><input name="textfield10" type="text" id="textfield10" size="60"></td>
+      </tr>
+      <tr>
+        <td>8.- Birthday</td>
+        <td colspan="3"><input type="date" name="date" id="date"></td>
+      </tr>
+      <tr>
+        <td>9.- Place of born</td>
+        <td colspan="3"><input name="textfield11" type="text" id="textfield11" size="60"></td>
+      </tr>
+      <tr>
+        <td>10.- Citizenship</td>
+        <td colspan="3"><input name="textfield12" type="text" id="textfield12" size="60"></td>
+      </tr>
+      <tr>
+        <td colspan="4" align="center"><input type="submit" name="submit" id="submit" value="Submit"></td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+</body>
+</html>
